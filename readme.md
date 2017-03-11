@@ -12,15 +12,17 @@ https://facebook.github.io/react-native/docs/getting-started.html
 
 Install react-native-cli by
 
-npm install -g react-native-cli
+$npm install -g react-native-cli
 
 clone the app by
 
 $git clone https://github.com/nikhilfusion/react-native-app
-$cd react-native-app
-npm install
 
-Install the simulator Genymotion(This project I used this :))
+$cd react-native-app
+
+$npm install
+
+Install the simulator Genymotion (This project I used Genymotion :) )
 
 run the app by 
 
