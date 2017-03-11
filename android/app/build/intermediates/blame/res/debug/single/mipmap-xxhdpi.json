@@ -1,5 +1,9 @@
 [
     {
+        "merged": "/Users/nikhil/Public/Nikhil-Workspace/pharmEasy/testNativeApp/android/app/build/intermediates/res/merged/debug/mipmap-xxhdpi/ic_launcher.png",
+        "source": "/Users/nikhil/Public/Nikhil-Workspace/pharmEasy/testNativeApp/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
         "merged": "/Users/nikhil/Public/Nikhil-Workspace/pharmEasy/androidapptest/android/app/build/intermediates/res/merged/debug/mipmap-xxhdpi/ic_launcher.png",
         "source": "/Users/nikhil/Public/Nikhil-Workspace/pharmEasy/androidapptest/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
     }

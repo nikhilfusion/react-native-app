@@ -5,7 +5,7 @@
  */
 
 import React, { Component } from 'react';
-import { StyleSheet, TextInput, View, TouchableOpacity, Text, Alert } from 'react-native';
+import { StyleSheet, TextInput, View, TouchableOpacity, Text } from 'react-native';
 
 export default class InputForm extends Component {
 
@@ -15,31 +15,36 @@ export default class InputForm extends Component {
     this.state = {
       name : '',
       password : '',
-      errors : []
+      errors : ''
     }
     this.submitLogin = this.submitLogin.bind(this);
   }
   async submitLogin() {
-    try {
-      let response = await fetch('http://jsonplaceholder.typicode.com/posts' , {
-        headers: {
-          'Accept': 'application/json',
-          'Content-Type': 'application/json',
-        },
-        method: 'POST',
-        body: JSON.stringify({
-          title: this.state.name,
-          body: this.state.password,
-          userId: 1
+    if(this.state.name && this.state.password) {
+      this.setState({errors : ''})
+      try {
+        let response = await fetch('http://jsonplaceholder.typicode.com/posts' , {
+          headers: {
+            'Accept': 'application/json',
+            'Content-Type': 'application/json',
+          },
+          method: 'POST',
+          body: JSON.stringify({
+            title: this.state.name,
+            body: this.state.password,
+            userId: 1
+          })
         })
-      })
 
-      let res = await response.text();
-      this.props.navigator.push({
-        id: 'main'
-      })
-    } catch(err) {
-      console.log("err is " + err);
+        let res = await response.text();
+        this.props.navigator.push({
+          id: 'main'
+        })
+      } catch(err) {
+        console.log("err is " + err);
+      }
+    } else {
+      this.setState({errors : 'Please fill all the fields'})
     }
   }
 
@@ -71,7 +76,8 @@ export default class InputForm extends Component {
           style={styles.buttonContainer}
         >
           <Text style={styles.buttonText}>LOGIN</Text>
-        </TouchableOpacity>  
+        </TouchableOpacity> 
+        <Text style={styles.errors}>{this.state.errors}</Text> 
       </View>
     );
   }
@@ -97,6 +103,9 @@ const styles = StyleSheet.create({
     backgroundColor: 'rgba(255,255,255,0.2)',
     paddingVertical: 15,
     marginBottom:20
-
+  },
+  errors: {
+    color: 'red',
+    marginLeft: 10
   }
 })  

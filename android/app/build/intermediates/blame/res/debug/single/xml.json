@@ -2,5 +2,9 @@
     {
         "merged": "/Users/nikhil/Public/Nikhil-Workspace/pharmEasy/androidapptest/android/app/build/intermediates/res/merged/debug/xml/preferences.xml",
         "source": "/Users/nikhil/Public/Nikhil-Workspace/pharmEasy/androidapptest/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.42.0/res/xml/preferences.xml"
+    },
+    {
+        "merged": "/Users/nikhil/Public/Nikhil-Workspace/pharmEasy/testNativeApp/android/app/build/intermediates/res/merged/debug/xml/preferences.xml",
+        "source": "/Users/nikhil/Public/Nikhil-Workspace/pharmEasy/testNativeApp/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.42.0/res/xml/preferences.xml"
     }
 ]
