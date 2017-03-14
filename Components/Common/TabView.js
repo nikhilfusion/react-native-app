@@ -9,7 +9,7 @@ import { AppRegistry, StyleSheet, Text, View, Button, Alert, Navigator } from 'r
 
 import UserList from './UserList';
 import MyScene from './MyScene';
-
+import Locate from './Locate';
 import { TabViewAnimated, TabBar } from 'react-native-tab-view';
 
 const styles = StyleSheet.create({
@@ -36,7 +36,8 @@ export default class TabView extends Component {
     index: 0,
     routes: [
       { key: '1', title: 'User List' },
-      { key: '2', title: 'Add User' }
+      { key: '2', title: 'Add User' },
+      { key: '3', title: 'Locate us' }
     ],
   };
 
@@ -53,7 +54,6 @@ export default class TabView extends Component {
     case '1':
       return (
         <View style={styles.listStyle}>
-          <Text style={styles.heading}>List of Users </Text>
           <UserList/>
         </View>
       );  
@@ -63,6 +63,12 @@ export default class TabView extends Component {
           <MyScene/>
         </View>
       );
+    case '3':
+      return (
+        <View>
+          <Locate/>
+        </View>
+      );   
     default:
       return null;
     }

@@ -12,6 +12,7 @@ import TabView from './Components/Common/TabView';
 import MyScene from './Components/Common/MyScene';
 import Login from './Components/Common/Login';
 import UserList from './Components/Common/UserList';
+import Locate from './Components/Common/Locate';
 export default class pickerApp extends Component {
   
   constructor(props){
@@ -30,14 +31,16 @@ export default class pickerApp extends Component {
       case 'login' :
         return (<Login navigator={Navigator} title="login Page" />)
       case 'UserList' :
-        return (<UserList navigator={Navigator} title="user list" />)     
+        return (<UserList navigator={Navigator} title="user list" />)
+      case 'Locate' : 
+        return (<Locate navigator={Navigator} title="Locate list" />)
     }
   }
 
   render() {
     return(
         <Navigator 
-          initialRoute={{id: 'OnBoard'}} 
+          initialRoute={{id: 'Locate'}} 
           renderScene={this.renderScene} 
           configureScreen={(route, routeStack) => Navigator.SceneConfigs.FloatFromBottom} 
         />

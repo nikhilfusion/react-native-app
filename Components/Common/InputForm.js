@@ -5,7 +5,8 @@
  */
 
 import React, { Component } from 'react';
-import { StyleSheet, TextInput, View, TouchableOpacity, Text } from 'react-native';
+import { StyleSheet, TextInput, View, TouchableOpacity, Text, Alert } from 'react-native';
+import api from '../../Utility/api';
 
 export default class InputForm extends Component {
 
@@ -19,33 +20,43 @@ export default class InputForm extends Component {
     }
     this.submitLogin = this.submitLogin.bind(this);
   }
-  async submitLogin() {
+  submitLogin() {
     if(this.state.name && this.state.password) {
       this.setState({errors : ''})
-      try {
-        let response = await fetch('http://jsonplaceholder.typicode.com/posts' , {
-          headers: {
-            'Accept': 'application/json',
-            'Content-Type': 'application/json',
-          },
-          method: 'POST',
-          body: JSON.stringify({
-            title: this.state.name,
-            body: this.state.password,
-            userId: 1
-          })
-        })
-
-        let res = await response.text();
-        this.props.navigator.push({
+        api.postUsers(this.state.name, this.state.password).then((response) => {
+          this.props.navigator.push({
           id: 'main'
         })
-      } catch(err) {
-        console.log("err is " + err);
-      }
+      }, (err) => {
+        this.setState({errors : 'Please check username/password'})
+      })
     } else {
       this.setState({errors : 'Please fill all the fields'})
-    }
+    }    
+      // try {
+      //   let response = await fetch('http://jsonplaceholder.typicode.com/posts' , {
+      //     headers: {
+      //       'Accept': 'application/json',
+      //       'Content-Type': 'application/json',
+      //     },
+      //     method: 'POST',
+      //     body: JSON.stringify({
+      //       title: this.state.name,
+      //       body: this.state.password,
+      //       userId: 1
+      //     })
+      //   })
+      //   let res = await response.text();
+      //   api.postUsers(this.state.name, this.state.password).then((response) => {
+      //     Alert.alert(response);
+      //     console.log("response is", response);
+      //   })
+      //   this.props.navigator.push({
+      //     id: 'main'
+      //   })
+      // } catch(err) {
+      //   console.log("err is " + err);
+      // }
   }
 
   render() {
