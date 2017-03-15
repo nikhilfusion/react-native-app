@@ -31,4 +31,15 @@ $react-native run-android
 App will open in the simulator
 
 
+For Linking maps to app :-
+
+$npm install react-native-maps 
+
+$react-native link react-native-maps
+
+adding google app for genymotion from the url [ref-1]:http://opengapps.org/
+
+
+
+
 ********************************************

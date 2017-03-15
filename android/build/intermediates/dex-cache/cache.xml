@@ -48,6 +48,15 @@
     </item>
     <item
         is-multidex="false"
+        jar="/Users/nikhil/Public/Nikhil-Workspace/pharmEasy/testNativeApp/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/9.8.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="122ec9237acd8a57d974b9d529987f1ee6ca5aea">
+        <dex dex="/Users/nikhil/Public/Nikhil-Workspace/pharmEasy/testNativeApp/android/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-maps-9.8.0_bb0692845868ad7d0f0090cd9ccd9a356784e890.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="/Users/nikhil/Public/Nikhil-Workspace/pharmEasy/testNativeApp/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fbcore/0.11.0/jars/classes.jar"
         jumboMode="false"
         optimize="true"
@@ -57,12 +66,12 @@
     </item>
     <item
         is-multidex="false"
-        jar="/Users/nikhil/Public/Nikhil-Workspace/pharmEasy/testNativeApp/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/jars/classes.jar"
+        jar="/Users/nikhil/Public/Nikhil-Workspace/pharmEasy/testNativeApp/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.8.0/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
-        sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
-        <dex dex="/Users/nikhil/Public/Nikhil-Workspace/pharmEasy/testNativeApp/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-23.4.0_e4ee14e8caceee850e7b5e354ea540a694ca3e9c.jar" />
+        sha1="7e92aadd0697922316d1395c1887a23aebec640a">
+        <dex dex="/Users/nikhil/Public/Nikhil-Workspace/pharmEasy/testNativeApp/android/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-base-9.8.0_93e8eadb8b856f97fc2b76784d71d70b6c5b6138.jar" />
     </item>
     <item
         is-multidex="false"
@@ -90,6 +99,15 @@
         revision="23.0.1"
         sha1="dcac634e137395f79693ec760f081a86eb2bd84e">
         <dex dex="/Users/nikhil/Public/Nikhil-Workspace/pharmEasy/testNativeApp/android/app/build/intermediates/pre-dexed/debug/infer-annotations-1.5_4fb1ee7fd8f16e5a81142cc5f9debdffd986bf6b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/nikhil/Public/Nikhil-Workspace/pharmEasy/testNativeApp/android/app/build/intermediates/exploded-aar/pickerApp/react-native-maps/unspecified/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="40becebef8197d1b2f257be1170ea0b78e45f053">
+        <dex dex="/Users/nikhil/Public/Nikhil-Workspace/pharmEasy/testNativeApp/android/app/build/intermediates/pre-dexed/debug/pickerApp-react-native-maps-unspecified_3df4b7dc09015ab75e06700c8a77b8f8bdf642d7.jar" />
     </item>
     <item
         is-multidex="false"
@@ -129,6 +147,15 @@
     </item>
     <item
         is-multidex="false"
+        jar="/Users/nikhil/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/24.0.0/support-annotations-24.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="2943c74db6d4346ab8c6531adac91fa05c137c40">
+        <dex dex="/Users/nikhil/Public/Nikhil-Workspace/pharmEasy/testNativeApp/android/app/build/intermediates/pre-dexed/debug/support-annotations-24.0.0_746b85fdd504aa58f2fa036c0ab104c10ca7fff5.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="/Users/nikhil/.gradle/caches/modules-2/files-2.1/com.facebook.fbui.textlayoutbuilder/staticlayout-proxy/1.0/f162442a19fff13995fbd51ba414d9ee05579080/staticlayout-proxy-1.0.jar"
         jumboMode="false"
         optimize="true"
@@ -144,6 +171,24 @@
         revision="23.0.1"
         sha1="f90b593491e4044903f0bbf68dc3fa2790b151b9">
         <dex dex="/Users/nikhil/Public/Nikhil-Workspace/pharmEasy/testNativeApp/android/app/build/intermediates/pre-dexed/debug/com.facebook.fbui.textlayoutbuilder-textlayoutbuilder-1.0.0_91dbd73360500988c9e72307cb12fdfa04a77102.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/nikhil/Public/Nikhil-Workspace/pharmEasy/testNativeApp/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="2f7e6e2dad1bccaf68a8820820adc6c0d5b96d37">
+        <dex dex="/Users/nikhil/Public/Nikhil-Workspace/pharmEasy/testNativeApp/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-24.0.0_bb72a79b566529c2519900b18b95dc0af5241cee.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/nikhil/Public/Nikhil-Workspace/pharmEasy/testNativeApp/android/app/build/intermediates/exploded-aar/pickerApp/react-native-vector-icons/unspecified/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="b319ff9834bbeb9be394687614eb86892699ea14">
+        <dex dex="/Users/nikhil/Public/Nikhil-Workspace/pharmEasy/testNativeApp/android/app/build/intermediates/pre-dexed/debug/pickerApp-react-native-vector-icons-unspecified_b1ff5233da856b7ac58744ca295e7f1895c3a5e1.jar" />
     </item>
     <item
         is-multidex="false"
@@ -165,12 +210,30 @@
     </item>
     <item
         is-multidex="false"
+        jar="/Users/nikhil/Public/Nikhil-Workspace/pharmEasy/testNativeApp/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/9.8.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="bf2e1838e4428616c1aa26edf43de72b5b99bf84">
+        <dex dex="/Users/nikhil/Public/Nikhil-Workspace/pharmEasy/testNativeApp/android/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-tasks-9.8.0_e70af6c0273d8451437056513b1b19e5581c87f5.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="/Users/nikhil/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.4.1/c7c4f9e35c2fd5900da24f9872e3971801f08ce0/okhttp-3.4.1.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
         sha1="c7c4f9e35c2fd5900da24f9872e3971801f08ce0">
         <dex dex="/Users/nikhil/Public/Nikhil-Workspace/pharmEasy/testNativeApp/android/app/build/intermediates/pre-dexed/debug/okhttp-3.4.1_6009088fa8ff078d30bb9f4320365abf514aee05.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/nikhil/Public/Nikhil-Workspace/pharmEasy/testNativeApp/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.8.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="9f6d236bac26d02b410e4ee186ba517ace5ee661">
+        <dex dex="/Users/nikhil/Public/Nikhil-Workspace/pharmEasy/testNativeApp/android/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-basement-9.8.0_41d87c28b79dcbd97c5d85e7c2dcb6a352ad24ca.jar" />
     </item>
     <item
         is-multidex="false"
@@ -183,12 +246,12 @@
     </item>
     <item
         is-multidex="false"
-        jar="/Users/nikhil/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.4.0/support-annotations-23.4.0.jar"
+        jar="/Users/nikhil/Public/Nikhil-Workspace/pharmEasy/testNativeApp/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/jars/libs/internal_impl-24.0.0.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
-        sha1="ffbe55fdb2bb456b1485831706a9eac3300bb6b8">
-        <dex dex="/Users/nikhil/Public/Nikhil-Workspace/pharmEasy/testNativeApp/android/app/build/intermediates/pre-dexed/debug/support-annotations-23.4.0_4dedd0510861e69c02ecddd9f18f06041e4b1fc9.jar" />
+        sha1="fcaf463e10e69c1923ccf1edeba3b4196d239e00">
+        <dex dex="/Users/nikhil/Public/Nikhil-Workspace/pharmEasy/testNativeApp/android/app/build/intermediates/pre-dexed/debug/internal_impl-24.0.0_dd8642e1f4583d0b5be2cf7d76c2e219b1790b5f.jar" />
     </item>
     <item
         is-multidex="false"
@@ -207,15 +270,6 @@
         revision="23.0.1"
         sha1="d31aadf33187c37a7cd63dc1b769f8c6e33f78c3">
         <dex dex="/Users/nikhil/Public/Nikhil-Workspace/pharmEasy/testNativeApp/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-fresco-0.11.0_ecc6c67a15c3758cf134abf9680b24219525108c.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/nikhil/Public/Nikhil-Workspace/pharmEasy/testNativeApp/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/jars/libs/internal_impl-23.4.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
-        <dex dex="/Users/nikhil/Public/Nikhil-Workspace/pharmEasy/testNativeApp/android/app/build/intermediates/pre-dexed/debug/internal_impl-23.4.0_ae815b2e8f70cea2af1a14557e27c814a0e06d5f.jar" />
     </item>
 
 </items>
