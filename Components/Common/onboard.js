@@ -7,7 +7,7 @@
 import React, { Component } from 'react';
 import { AppRegistry, StyleSheet, Text, View, Image } from 'react-native';
 import Onboarding from 'react-native-simple-onboarding';
-export default class OnBorad extends Component {
+export default class OnBoard extends Component {
   render() {
     let abs = true;
     return (
@@ -20,7 +20,7 @@ export default class OnBorad extends Component {
         ]} 
         onEnd={() => {
           this.props.navigator.push({
-            id : 'login'
+            id : 'main'
           });
         }}
       />
@@ -28,4 +28,4 @@ export default class OnBorad extends Component {
   }
 }
 
-AppRegistry.registerComponent('OnBorad', () => OnBorad);
+AppRegistry.registerComponent('OnBoard', () => OnBoard);

@@ -65,9 +65,7 @@ export default class TabView extends Component {
       );
     case '3':
       return (
-        <View>
           <Locate/>
-        </View>
       );   
     default:
       return null;

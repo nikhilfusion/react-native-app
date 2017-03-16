@@ -40,7 +40,7 @@ export default class pickerApp extends Component {
   render() {
     return(
         <Navigator 
-          initialRoute={{id: 'Locate'}} 
+          initialRoute={{id: 'OnBoard'}} 
           renderScene={this.renderScene} 
           configureScreen={(route, routeStack) => Navigator.SceneConfigs.FloatFromBottom} 
         />

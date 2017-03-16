@@ -25,7 +25,7 @@ export default class InputForm extends Component {
       this.setState({errors : ''})
         api.postUsers(this.state.name, this.state.password).then((response) => {
           this.props.navigator.push({
-          id: 'main'
+          id: 'login'
         })
       }, (err) => {
         this.setState({errors : 'Please check username/password'})
