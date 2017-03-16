@@ -1,6 +1,7 @@
 node_modules
 andoid/app/build
-android/build
+android/app/build
 android/gradle
 android/.gradle/
 ios/
+android/app/src/main/assets/fonts
